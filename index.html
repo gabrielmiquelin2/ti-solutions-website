@@ -1,13 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>IT Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px" href="css/mobile.css">
 </head>
 <body>
-  
+
+  <!-- Itens de Navegação -->
+     <nav id="navbar">
+         <div id="navbar-container">
+            <h1 class="logo">IT Solutions</h1>
+              <ul id="navbar-items">
+                  <li><a href="#showcase">Inicio</a></li>
+                  <li><a href="#clients">Sobre</a></li>
+                  <li><a href="#gallery">Galeria</a></li>
+              </ul>
+         </div>
+     </nav>
+
+     <!--Cabeçalho  -->
+     <header id="showcase">
+        <div id="showcase-container">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, totam.</p>
+            <a href="" class="btn">Saiba Mais</a>
+        </div>
+     </header>
+
+   <!-- Clientes -->
+  <section id="clients">
+      <div class="headline">Nossos Clientes</div>
+      <div id="clients-container">
+          <img src="img/apple.png" class="client" alt="Logo da Apple"> 
+          <img src="img/netflix.png" class="client" alt="Logo da Netflix"> 
+          <img src="img/microsoft.png" class="client" alt="Logo da Microsoft"> 
+          <img src="img/google.png" class="client" alt="Logo do Google"> 
+      </div>
+  </section>
+
+  <!-- About -->
+  <section id="features">
+      <div class="headline">O que fazemos</div>
+      <div id="features-container">
+          <div class="feature">
+            <i class="fas fa-tachometer-alt fa-3x"></i>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in doloremque harum nesciunt est neque!</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-code fa-3x"></i>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in doloremque harum nesciunt est neque!</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-layer-group fa-3x"></i>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in doloremque harum nesciunt est neque!</p>
+          </div>
+      </div>
+  </section>
+
+  <section id="product"><!--section da imagem do iphone-->
+      <div class="headline">Nosso produto</div>
+      <div id="product-container">
+          <img src="img/iphone-x.png" alt="Imagem de um iphone x" class="iphone-x">
+         <div id="items">
+             <div class="item">
+                  <i class="fas fa-map-marked fa-2x color-primary"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                      dignissimos? Libero?</p>
+             </div>
+             <div class="item">
+                  <i class="fas fa-users fa-2x color-primary"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                      dignissimos? Libero?</p>
+            </div>
+             <div class="item">
+                  <i class="fas fa-glass-cheers fa-2x color-primary"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                      dignissimos? Libero?</p>
+            </div>
+             <div class="item">
+              <i class="fas fa-users fa-2x color-primary"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                      dignissimos? Libero?</p>
+             </div>
+         </div>
+      </div>
+  </section>
+
+  <div id="testimonials">
+      <div class="headline">O que acham de nós</div>
+      <div id="testimonials-container">
+          <div class="testimonial">
+             <img src="img/person-1.jpeg" alt="" class="testimonial-image">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio reprehenderit facere a. Illum aliquid cumque omnis! Debitis, harum vitae.</p>
+          </div>
+          <div class="testimonial">
+             <img src="img/person-2.jpeg" alt="" class="testimonial-image">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio reprehenderit facere a. Illum aliquid cumque omnis! Debitis, harum vitae.</p>
+          </div>
+      </div>
+  </div>
+
+  <!-- Galeria -->
+  <section id="gallery">
+      <div class="headline">Galeria</div>
+       <div class="gallery-container">
+            <img src="img/image-1.jpeg" alt="" class="gallery-image">
+            <img src="img/image-2.jpeg" alt="" class="gallery-image">
+            <img src="img/image-3.jpeg" alt="" class="gallery-image">
+            <img src="img/image-4.jpeg" alt="" class="gallery-image">
+            <img src="img/image-5.jpeg" alt="" class="gallery-image">
+            <img src="img/image-6.jpeg" alt="" class="gallery-image">
+       </div>
+  </section>
+
+  <footer id="footer">
+      <p>Copyright 2023 - Todos os direitos reservados</p>
+      <a href="https://github.com/gabrielmiquelin2" target="_blank" style="text-decoration: none;">Feito por Gabriel</a>
+  </footer>
+ <!-- Fonte Awesome -->
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
 </body>
 </html>
